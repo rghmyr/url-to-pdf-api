@@ -280,6 +280,8 @@ First, clone the repository and cd into it.
 * `npm start` Start express server locally
 * Server runs at http://localhost:9000 or what `$PORT` env defines
 
+On Ubuntu Server, you need to install libs to open Chrome
+`sudo apt-get install libx11-xcb-dev libnss3-dev libxss1`
 
 ### Techstack
 
